@@ -1,9 +1,5 @@
 import Link from "next/link";
 
-const steps = [
-
-];
-
 export default function Home() {
   return (
     <main>
@@ -24,17 +20,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="home-steps">
-        <div className="container steps-list">
-          {steps.map((step) => (
-            <div className="step" key={step.n}>
-              <span className="step-n">{step.n}</span>
-              <h2>{step.title}</h2>
-              <p>{step.text}</p>
-            </div>
-          ))}
-        </div>
-      </section>
+      
     </main>
   );
 }
